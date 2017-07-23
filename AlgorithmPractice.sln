@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{4C16D563-4319-42E0-A8A2-C3ADEB187C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Tests", "Algorithms.Tests\Algorithms.Tests.csproj", "{733E8B90-6940-494E-BF9C-32199EB77B18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C16D563-4319-42E0-A8A2-C3ADEB187C6C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4C16D563-4319-42E0-A8A2-C3ADEB187C6C}.Debug|x86.Build.0 = Debug|Any CPU
+		{4C16D563-4319-42E0-A8A2-C3ADEB187C6C}.Release|x86.ActiveCfg = Release|Any CPU
+		{4C16D563-4319-42E0-A8A2-C3ADEB187C6C}.Release|x86.Build.0 = Release|Any CPU
+		{733E8B90-6940-494E-BF9C-32199EB77B18}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{733E8B90-6940-494E-BF9C-32199EB77B18}.Debug|x86.Build.0 = Debug|Any CPU
+		{733E8B90-6940-494E-BF9C-32199EB77B18}.Release|x86.ActiveCfg = Release|Any CPU
+		{733E8B90-6940-494E-BF9C-32199EB77B18}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
