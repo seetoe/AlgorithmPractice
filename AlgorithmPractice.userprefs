@@ -1,42 +1,27 @@
 ﻿<Properties StartupConfiguration="{4C16D563-4319-42E0-A8A2-C3ADEB187C6C}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="AlgorithmPractice Status">
     <Files>
-      <File FileName="Algorithms/String and Array/Minesweeper.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Linked List/ReorderLinkedList.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Tree/BinaryTreeNode.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Linked List/AddTwoNumbers.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Graph/CloneGraph.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Linked List/DeleteLinkedListNodeMiddle.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/String and Array/FourSum.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Tree/PrintBinaryTree.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/String and Array/LongestPalindromicSubstring.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/String and Array/ReverseString.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Sorting/InsertionSort.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Sorting/Quicksort.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Sorting/SelectionSort.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Tree/BinaryTreeTraversal.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Tree/BFS.cs" Line="26" Column="31" />
-      <File FileName="Algorithms/Tree/DFS.cs" Line="47" Column="2" />
-      <File FileName="Algorithms/Program.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Linked List/RemoveDuplicates.cs" Line="1" Column="1" />
-      <File FileName="Algorithms.Tests/UnitTest1.cs" Line="15" Column="1" />
-      <File FileName="Algorithms/String and Array/SearchInsertPosition.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Tree/PathSum.cs" Line="54" Column="9" />
-      <File FileName="Algorithms/Linked List/LRUCache.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/String and Array/ReverseInteger.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/String and Array/WordLadder.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/String and Array/MinimumCandiesGiven.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Linked List/MaxStack.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Startup.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/packages.config" Line="5" Column="12" />
+      <File FileName="Algorithms.Tests/LinkedListTests.cs" Line="125" Column="13" />
+      <File FileName="Algorithms.Tests/TreeTests.cs" Line="20" Column="1" />
+      <File FileName="Algorithms/Sorting/QuickSort.cs" Line="20" Column="31" />
       <File FileName="AlgorithmPractice Status" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="AlgorithmPractice" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Algorithms PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/kevinszeto/Projects/AlgorithmPractice/AlgorithmSolution/Tree/BinaryTreeTraversal.cs" relfile="AlgorithmSolution/Tree/BinaryTreeTraversal.cs" line="128" column="1" />
+      <Breakpoint enabled="false" file="/Users/kevinszeto/Projects/AlgorithmPractice/AlgorithmSolution/Tree/BinaryTreeTraversal.cs" relfile="AlgorithmSolution/Tree/BinaryTreeTraversal.cs" line="128" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/UnitTest1.cs" relfile="Algorithms.Tests/UnitTest1.cs" line="10" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/String and Array/LongestPalindromicSubstring.cs" relfile="Algorithms/String and Array/LongestPalindromicSubstring.cs" line="21" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/String and Array/LongestPalindromicSubstring.cs" relfile="Algorithms/String and Array/LongestPalindromicSubstring.cs" line="31" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

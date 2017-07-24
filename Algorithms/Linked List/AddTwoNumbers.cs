@@ -2,30 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-public class SolutionAddTwoNumbers {
-  //static void Main(string[] args) {
-  //      LinkedList<int> num1 = new LinkedList<int>();
-  //    num1.AddLast(2);
-  //    num1.AddLast(4);
-  //    num1.AddLast(3);
-  //    num1.AddLast(2);
-	  
-  //    LinkedList<int> num2 = new LinkedList<int>();
-  //    num2.AddLast(5);
-  //    num2.AddLast(6);
-  //    num2.AddLast(4);
-      
-  //      LinkedList<int> solution = AddTwoNumbers(num1, num2);
-  //      foreach (int i in solution) {
-  //          Console.WriteLine(i);
-  //      }
-  //}
-    
+public partial class Algorithm {
   // Add Two Numbers
-   static LinkedList<int> AddTwoNumbers(LinkedList<int> firstNum, LinkedList<int> secondNum) {
+   public static LinkedList<int> AddTwoNumbers(LinkedList<int> firstNum, LinkedList<int> secondNum) {
        
        LinkedList<int> solution = new LinkedList<int>();
        
@@ -76,6 +55,5 @@ public class SolutionAddTwoNumbers {
        
        return solution;
    }
-    
 }
 

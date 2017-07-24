@@ -1,27 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-public class SolutionCloneGraph
-{
-  //static void Main(string[] args) {
-  //    GraphNode node1 = new GraphNode(1);
-  //    GraphNode node2 = new GraphNode(2);
-  //    GraphNode node0 = new GraphNode(0);
-  //    node0.Neighbors.Add(node1);
-  //    node0.Neighbors.Add(node2);
-  //    node1.Neighbors.Add(node2);
-  //    node2.Neighbors.Add(node2);
-      
-  //    //PrintGraph(node0);
-      
-  //    GraphNode copyNode = CloneGraph(node0);
-      
-  //    PrintGraph(copyNode);
-  //}
-    
+public partial class Algorithm
+{    
     public static void PrintGraph (GraphNode node) {
         HashSet<GraphNode> nodesPrinted = new HashSet<GraphNode> ();
         Queue <GraphNode> nodesToVisit = new Queue<GraphNode> ();
@@ -48,7 +29,7 @@ public class SolutionCloneGraph
     }
     
     // clone graph
-  public static GraphNode CloneGraph (GraphNode node) {
+    public static GraphNode CloneGraph (GraphNode node) {
       // traverse graph using BFS
       Queue<GraphNode> nodesToVisit = new Queue<GraphNode>();
       Dictionary<GraphNode, GraphNode> visitedNodes = new Dictionary<GraphNode, GraphNode>();
@@ -79,28 +60,35 @@ public class SolutionCloneGraph
       }
       
       return nodeCopy;
-  }
+    }
+
+	public class GraphNode
+	{
+		private int label;
+		private List<GraphNode> neighbors = new List<GraphNode>();
+
+		// constructor
+		public GraphNode(int label)
+		{
+			this.label = label;
+			//this.neighbors = neighbors;
+		}
+
+		public List<GraphNode> Neighbors
+		{
+			get
+			{
+				return this.neighbors;
+			}
+		}
+
+		public int Label
+		{
+			get
+			{
+				return this.label;
+			}
+		}
+	}
 }
 
-public class GraphNode {
-    private int label;
-    private List<GraphNode> neighbors = new List<GraphNode> ();
-    
-    // constructor
-    public GraphNode (int label) {
-        this.label = label;
-        //this.neighbors = neighbors;
-    }
-    
-    public List<GraphNode> Neighbors {
-        get {
-            return this.neighbors;
-        }
-    }
-    
-    public int Label {
-        get {
-            return this.label;
-        }
-    }
-}

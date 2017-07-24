@@ -11,6 +11,9 @@
 /Users/kevinszeto/Projects/AlgorithmExercise/Algorithms.Tests/obj/Debug/netcoreapp1.1/Algorithms.Tests.AssemblyInfo.cs
 /Users/kevinszeto/Projects/AlgorithmExercise/Algorithms.Tests/obj/Debug/netcoreapp1.1/Algorithms.Tests.dll
 /Users/kevinszeto/Projects/AlgorithmExercise/Algorithms.Tests/obj/Debug/netcoreapp1.1/Algorithms.Tests.pdb
+/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/bin/Debug/netcoreapp1.1/Microsoft.DiaSymReader.Native.x86.dll
+/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/bin/Debug/netcoreapp1.1/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/bin/Debug/netcoreapp1.1/Microsoft.DiaSymReader.Native.arm.dll
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/bin/Debug/netcoreapp1.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/bin/Debug/netcoreapp1.1/xunit.runner.utility.netstandard15.dll
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/bin/Debug/netcoreapp1.1/xunit.runner.reporters.netstandard15.dll
@@ -19,6 +22,8 @@
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/bin/Debug/netcoreapp1.1/Algorithms.Tests.runtimeconfig.dev.json
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/bin/Debug/netcoreapp1.1/Algorithms.Tests.dll
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/bin/Debug/netcoreapp1.1/Algorithms.Tests.pdb
+/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/bin/Debug/netcoreapp1.1/Algorithms.dll
+/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/bin/Debug/netcoreapp1.1/Algorithms.pdb
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/obj/Debug/netcoreapp1.1/Algorithms.Tests.csprojResolveAssemblyReference.cache
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/obj/Debug/netcoreapp1.1/Algorithms.Tests.csproj.CoreCompileInputs.cache
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/obj/Debug/netcoreapp1.1/Algorithms.Tests.AssemblyInfo.cs

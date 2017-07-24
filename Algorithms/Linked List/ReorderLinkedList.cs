@@ -1,33 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-class SolutionReorderLinkedList {
-  //static void Main(string[] args) {
-  //  Node node1 = new Node(1);    
-  //  Node node2 = new Node(2);
-  //  Node node3 = new Node(3);
-  //  Node node4 = new Node(4);
-  //  Node node5 = new Node(5);
-  //  Node node6 = new Node(6);
-  //  Node node7 = new Node(7);
-  //  Node node8 = new Node(8);
-  //  node1.Next = node2;
-  //  node2.Next = node3;
-  //  node3.Next = node4;
-  //  node4.Next = node5;
-  //  node5.Next = node6;
-  //  node6.Next = node7;
-  //  node7.Next = node8;
-      
-  //  //ReorderLinkedList(node1);
-      
-  //  ReverseLinkedList(node1);
-  //  PrintLinkedList(node8);
-  //}
-
+public partial class Algorithm {
     //Given a singly linked list L: L0?L1? ... ?Ln-1?Ln,
     //reorder it to: L0?Ln?L1?Ln-1?L2?Ln-2?...
     

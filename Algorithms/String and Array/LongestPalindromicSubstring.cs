@@ -1,15 +1,6 @@
 using System;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-class SolutionLongestPalindromicSubstring {
-  //static void Main(string[] args) {
-  //    string testString = "ccd";
-  //    Console.WriteLine(LongestPalindromicSubstringNaive(testString));
-  //    Console.WriteLine(LongestPalindromicSubstringBetter(testString));
-  //}
-
+public partial class Algorithm {
     // find the longest palindromic substring by checking all substrings
     public static string LongestPalindromicSubstringNaive (string s) {
         int currentMaxLength = 0;

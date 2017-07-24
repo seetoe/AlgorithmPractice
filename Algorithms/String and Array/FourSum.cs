@@ -2,23 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-class SolutionFourSum {
-  //static void Main(string[] args) {
-  //      int[] testArray = {1,0,-1,0,-2, 2, 2};
-  //    int target = 0;
-  //    List<List<int>> result = FourSum(testArray, target);
-  //    foreach (List<int> sol in result) {
-  //        Console.Write("(");
-  //        foreach (int i in sol) {
-  //            Console.Write(i + " ");
-  //        }
-  //        Console.WriteLine(")");
-  //    }
-  //}
-    
+public partial class Algorithm {
     // 4Sum
 	// Given an array S of n integers, are there elements a, b, c, d in S such that sum is target
     public static List<List<int>> FourSum(int[] arr, int target) {

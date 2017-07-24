@@ -1,20 +1,7 @@
 using System;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-class SolutionQuickSort {
-  //static void Main(string[] args) {
-  //  int[] testArray = {1, 2, 6, 3, 9, 11, 10};
-  //    QuickSort(ref testArray, 0, 6);
-      
-  //    foreach (int i in testArray) {
-  //        Console.WriteLine(i);
-  //    }
-      
-  //}
-
-  static void QuickSort(ref int[] array, int start, int end) {
+public partial class Algorithm {
+  public static void QuickSort(ref int[] array, int start, int end) {
     if (array.Length == 0){
         return;
     }

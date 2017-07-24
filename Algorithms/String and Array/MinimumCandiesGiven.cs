@@ -1,19 +1,11 @@
 using System;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-class SolutionMinimumCandiesGiven {
-  //static void Main(string[] args) {
-  //  int result = MinimumCandiesGiven (new int[] {1, 3, 4, 1});
-  //    Console.WriteLine (result);
-  //}
-    
+public partial class Algorithm {
     // N children standing in a line
     // Each child is assigned a rating value
     // Each child must have at least one candy
     // Children with a higher rating get more candies than their neighbors
-    static int MinimumCandiesGiven (int[] childrenRatings) {
+    public static int MinimumCandiesGiven (int[] childrenRatings) {
         
         if (childrenRatings == null || childrenRatings.Length == 0) {
             return 0;

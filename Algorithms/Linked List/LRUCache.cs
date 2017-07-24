@@ -1,24 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-//class Solution {
-//  static void Main(string[] args) {
-//        LRUCache lru = new LRUCache(5);
-//      lru.set(1, 4);
-//      lru.set(2, 4);
-//      lru.set(3, 4);
-//      lru.set(4, 4);
-//      lru.set(1, 69);
-//      lru.set(5, 4);
-//      lru.set(6, 23);
-//      Console.WriteLine(lru.get(1));
-//      Console.WriteLine(lru.get(6));
-//  }
-//}
-
 // design and implement a data structure for LRU cache
 // it should support get and set
 public class LRUCache {

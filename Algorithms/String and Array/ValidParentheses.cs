@@ -1,21 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-class SolutionValidParentheses {
-  //static void Main(string[] args) {
-  //  string positiveTest1 = "()";
-  //  string positiveTest2 = "()[]{}";
-  //  string negativeTest1 = "(]";
-  //  string negativeTest2 = "([)]";
-  //  Console.WriteLine(ValidParentheses(positiveTest1));
-  //  Console.WriteLine(ValidParentheses(positiveTest2));
-  //  Console.WriteLine(ValidParentheses(negativeTest1));
-  //  Console.WriteLine(ValidParentheses(negativeTest2));
-  //}
-    
+public partial class Algorithm {    
     // Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
     // The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
     public static bool ValidParentheses(string s) {
@@ -53,6 +39,4 @@ class SolutionValidParentheses {
         }
         return valid;
     }
-    
-    
 }

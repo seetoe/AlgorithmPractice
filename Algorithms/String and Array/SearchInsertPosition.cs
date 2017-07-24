@@ -1,24 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-class SolutionSearchInsertPosition {
-  //static void Main(string[] args) {
-  //  int[] arr1 = new int[] {1, 3, 5, 6};
-      
-  //  Console.WriteLine(SearchInsertPosition(arr1, 5));
-  //  Console.WriteLine(SearchInsertPosition(arr1, 2));
-  //  Console.WriteLine(SearchInsertPosition(arr1, 7));
-  //  Console.WriteLine(SearchInsertPosition(arr1, 0));
-      
-  //  Console.WriteLine(SearchInsertPositionBinary(arr1, 5, 0, arr1.Length-1));
-  //  Console.WriteLine(SearchInsertPositionBinary(arr1, 2, 0, arr1.Length-1));
-  //  Console.WriteLine(SearchInsertPositionBinary(arr1, 7, 0, arr1.Length-1));
-  //  Console.WriteLine(SearchInsertPositionBinary(arr1, 0, 0, arr1.Length-1));
-  //}
-
+public partial class Algorithm {
     // given a sorted array and a target value,
     // return the index if the target is found
     // if not, return the index where it would be if it were inserted

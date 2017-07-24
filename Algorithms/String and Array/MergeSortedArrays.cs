@@ -1,10 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-class SolutionMergeSortedArrays {
+public partial class Algorithm {
   //static void Main(string[] args) {
   //      int[] firstArray = {1, 4, 5, 9};
   //        int[] secondArray = {1, 2, 7, 8};
@@ -14,7 +11,7 @@ class SolutionMergeSortedArrays {
   //}
     
     // merge two sorted arrays into one sorted array
-    static int[] MergeSortedArrays (int[] a1, int[] a2) {
+    public static int[] MergeSortedArrays (int[] a1, int[] a2) {
         //int[] resultArray = new int[a1.Length + a2.Length];
         List<int> resultArray = new List<int> ();
         int i = 0;

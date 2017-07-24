@@ -2,23 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-class SolutionWordLadder {
-  //static void Main(string[] args) {
-  //    HashSet<string> dict = new HashSet<string>();
-  //    dict.Add("hot");
-  //    dict.Add("dot");
-  //    dict.Add("dog");
-  //    dict.Add("lot");
-  //    dict.Add("log");
-
-  //    Console.Write(WordLadder ("hit", "cog", dict));
-  //}
-    
-   // Given two words (start and end), and a dictionary, find the length of shortest transformation sequence from start to end, such that only one letter can be changed at a time and each intermediate word must exist in the dictionary. all words have the same length
-    static int WordLadder(string startWord, string endWord, HashSet<string> dict) {
+public partial class Algorithm {    
+    // Given two words (start and end), and a dictionary, find the length of shortest transformation sequence from start to end,
+    // such that only one letter can be changed at a time and each intermediate word must exist in the dictionary.
+    // all words have the same length
+    public static int WordLadder(string startWord, string endWord, HashSet<string> dict) {
        
         if (dict.Count == 0) {
             return 0;
