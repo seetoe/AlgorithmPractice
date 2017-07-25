@@ -1,15 +1,30 @@
 ﻿<Properties StartupConfiguration="{4C16D563-4319-42E0-A8A2-C3ADEB187C6C}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="AlgorithmPractice Status">
     <Files>
-      <File FileName="Algorithms.Tests/LinkedListTests.cs" Line="125" Column="13" />
-      <File FileName="Algorithms.Tests/TreeTests.cs" Line="20" Column="1" />
-      <File FileName="Algorithms/Sorting/QuickSort.cs" Line="20" Column="31" />
+      <File FileName="Algorithms.Tests/TreeTests.cs" Line="89" Column="6" />
+      <File FileName="Algorithms/Tree/BinaryTreeTraversal.cs" Line="91" Column="2" />
+      <File FileName="Algorithms/Tree/BreadthFirstSearch.cs" Line="4" Column="2" />
+      <File FileName="Algorithms/Tree/DepthFirstSearch.cs" Line="4" Column="2" />
+      <File FileName="Algorithms/Tree/BinaryTreeNode.cs" Line="54" Column="19" />
+      <File FileName="Algorithms/Tree/PathSum.cs" Line="52" Column="2" />
+      <File FileName="Algorithms/Tree/PrintBinaryTree.cs" Line="24" Column="4" />
       <File FileName="AlgorithmPractice Status" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="AlgorithmPractice" expanded="True" selected="True" />
+          <Node name="AlgorithmPractice" expanded="True">
+            <Node name="Algorithms.Tests" expanded="True">
+              <Node name="Algorithms" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="StringAndArrayTests" expanded="True" />
+                  <Node name="TreeTests" expanded="True">
+                    <Node name="PathSumTest" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
@@ -20,8 +35,6 @@
     <BreakpointStore>
       <Breakpoint enabled="false" file="/Users/kevinszeto/Projects/AlgorithmPractice/AlgorithmSolution/Tree/BinaryTreeTraversal.cs" relfile="AlgorithmSolution/Tree/BinaryTreeTraversal.cs" line="128" column="1" />
       <Breakpoint file="/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/UnitTest1.cs" relfile="Algorithms.Tests/UnitTest1.cs" line="10" column="1" />
-      <Breakpoint file="/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/String and Array/LongestPalindromicSubstring.cs" relfile="Algorithms/String and Array/LongestPalindromicSubstring.cs" line="21" column="1" />
-      <Breakpoint file="/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/String and Array/LongestPalindromicSubstring.cs" relfile="Algorithms/String and Array/LongestPalindromicSubstring.cs" line="31" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

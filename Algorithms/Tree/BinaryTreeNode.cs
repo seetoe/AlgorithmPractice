@@ -1,20 +1,57 @@
-﻿using System;
-namespace AlgorithmExercise
-{
-	// binary tree node
-	public class BinaryTreeNode
-	{
-		public string value;
-		public BinaryTreeNode left;
-		public BinaryTreeNode right;
+﻿﻿using System;
 
-		public BinaryTreeNode(string value, BinaryTreeNode left, BinaryTreeNode right)
+// binary tree node
+public class BinaryTreeNode<T>
+{
+	private T value;
+	private BinaryTreeNode<T> left;
+	private BinaryTreeNode<T> right;
+
+	public BinaryTreeNode(T value, BinaryTreeNode<T> left=null, BinaryTreeNode<T> right=null)
+	{
+		this.value = value;
+		this.left = left;
+		this.right = right;
+	}
+
+	public T Value
+    {
+		get
 		{
-			this.value = value;
-			this.left = left;
-			this.right = right;
+			return this.value;
+		}
+        set
+        {
+            this.value = value;
+        }
+	}
+
+	public BinaryTreeNode<T> Left
+	{
+		get
+		{
+			return this.left;
+		}
+		set
+		{
+			this.left = value;
 		}
 	}
 
+	public BinaryTreeNode<T> Right
+	{
+		get
+		{
+			return this.right;
+		}
+		set
+		{
+			this.right = value;
+		}
+	}
 
+    public void SetChildren(BinaryTreeNode<T> ln, BinaryTreeNode<T> rn) {
+        left = ln;
+        right = rn;
+    }
 }

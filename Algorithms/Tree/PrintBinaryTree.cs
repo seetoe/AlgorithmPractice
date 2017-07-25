@@ -1,56 +1,27 @@
 using System;
 using System.Collections.Generic;
-using Node = SolutionPrintBinaryTree.Node;
 
-// To execute C#, please define "static void Main" on a class
-// named Solution.
-
-class SolutionPrintBinaryTree {
-  //static void Main(string[] args) {
-  //  Node nodeF = new Node("F", null, null);
-  //  Node nodeE = new Node("E", null, null);
-  //  Node nodeD = new Node("D", null, null);
-  //  Node nodeC = new Node("C", nodeE, nodeF);
-  //  Node nodeB = new Node("B", nodeD, null);
-  //  Node nodeA = new Node("A", nodeB, nodeC);
-  //  Print(nodeA);
-  //}
-
+public partial class Algorithm {
   // print out binary tree in level-by-level representation
-  public static void Print(Node root) {
+  public static void PrintBinaryTree(BinaryTreeNode<string> root) {
     // breadth first traversal
-    Queue<Node> nodesToVisit = new Queue<Node>();
+    Queue<BinaryTreeNode<string>> nodesToVisit = new Queue<BinaryTreeNode<string>>();
     nodesToVisit.Enqueue(root);
     while (nodesToVisit.Count > 0) {
       int nodesInLevel = nodesToVisit.Count;
       for (int i = 0; i < nodesInLevel; i++) {
-          Node currentNode = nodesToVisit.Dequeue();
-          Console.Write(currentNode.value + " ");
-          if (currentNode.left != null) {
-              nodesToVisit.Enqueue(currentNode.left);    
+          BinaryTreeNode<string> currentNode = nodesToVisit.Dequeue();
+          Console.Write(currentNode.Value + " ");
+          if (currentNode.Left != null) {
+              nodesToVisit.Enqueue(currentNode.Left);    
           }
-          if (currentNode.right != null) {
-              nodesToVisit.Enqueue(currentNode.right);
+          if (currentNode.Right != null) {
+              nodesToVisit.Enqueue(currentNode.Right);
           }    
       }
       Console.WriteLine();
     }
   }
-
-	// binary tree node
-	public class Node
-	{
-		public string value;
-		public Node left;
-		public Node right;
-
-		public Node(string value, Node left, Node right)
-		{
-			this.value = value;
-			this.left = left;
-			this.right = right;
-		}
-	}
 }
 
 

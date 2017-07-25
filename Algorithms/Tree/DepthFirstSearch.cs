@@ -1,36 +1,27 @@
 using System.Collections.Generic;
 
-public class SolutionDFS
+public partial class Algorithm
 {
-    public class BinaryTreeNode
-    {
-        public BinaryTreeNode Left { get; set; }
-
-        public BinaryTreeNode Right { get; set; }
-
-        public int Data { get; set; }
-    }
-
     public class DepthFirstSearch
     {
-        private Stack<BinaryTreeNode> _searchStack;
-        private BinaryTreeNode _root;
+        private Stack<BinaryTreeNode<int>> _searchStack;
+        private BinaryTreeNode<int> _root;
 
-        public DepthFirstSearch(BinaryTreeNode rootNode)
+        public DepthFirstSearch(BinaryTreeNode<int> rootNode)
         {
             _root = rootNode;
-            _searchStack = new Stack<BinaryTreeNode>();
+            _searchStack = new Stack<BinaryTreeNode<int>>();
         }
 
         public bool Search(int data)
         {
-            BinaryTreeNode _current;
+            BinaryTreeNode<int> _current;
             _searchStack.Push(_root);
 
             while (_searchStack.Count != 0)
             {
                 _current = _searchStack.Pop();
-                if (_current.Data == data)
+                if (_current.Value == data)
                 {
                     return true;
                 }
