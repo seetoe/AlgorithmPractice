@@ -11,10 +11,15 @@
     <Folder Include="Tree\" />
     <Folder Include="Linked List\" />
     <Folder Include="Graph\" />
+    <Folder Include="Math\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="String and Array\GraphTests.cs" />
+    <Compile Remove="String and Array\GraphTests.cs" />
+  </ItemGroup>
 </Project>
