@@ -1,15 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-public partial class Algorithm {
-  //static void Main(string[] args) {
-  //      int[] firstArray = {1, 4, 5, 9};
-  //        int[] secondArray = {1, 2, 7, 8};
-  //    foreach(int i in MergeSortedArrays(firstArray, secondArray)) {
-  //        Console.WriteLine(i);
-  //    }
-  //}
-    
+public partial class Algorithm {    
     // merge two sorted arrays into one sorted array
     public static int[] MergeSortedArrays (int[] a1, int[] a2) {
         //int[] resultArray = new int[a1.Length + a2.Length];

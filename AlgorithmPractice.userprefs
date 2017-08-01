@@ -1,12 +1,8 @@
 ﻿<Properties StartupConfiguration="{4C16D563-4319-42E0-A8A2-C3ADEB187C6C}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="AlgorithmPractice Status">
     <Files>
-      <File FileName="Algorithms/String and Array/LightBulbSwitch.cs" Line="13" Column="12" />
-      <File FileName="Algorithms.Tests/StringAndArrayTests.cs" Line="22" Column="30" />
-      <File FileName="Algorithms/String and Array/CoverPoints.cs" Line="27" Column="5" />
-      <File FileName="Algorithms/Math/IsPower.cs" Line="15" Column="1" />
-      <File FileName="Algorithms.Tests/MathTests.cs" Line="24" Column="25" />
-      <File FileName="Algorithms/Math/PrimeSum.cs" Line="41" Column="10" />
+      <File FileName="Algorithms.Tests/SortingTests.cs" Line="45" Column="44" />
+      <File FileName="Algorithms/Sorting/MergeSort.cs" Line="14" Column="10" />
       <File FileName="AlgorithmPractice Status" />
     </Files>
     <Pads>
@@ -16,8 +12,9 @@
             <Node name="Algorithms.Tests" expanded="True">
               <Node name="Algorithms" expanded="True">
                 <Node name="Tests" expanded="True">
-                  <Node name="MathTests" expanded="True">
-                    <Node name="PrimeSumTest" selected="True" />
+                  <Node name="MathTests" expanded="True" />
+                  <Node name="SortingTests" expanded="True">
+                    <Node name="MergeSortTest" selected="True" />
                   </Node>
                   <Node name="StringAndArrayTests" expanded="True" />
                   <Node name="TreeTests" expanded="True" />
@@ -38,6 +35,8 @@
       <Breakpoint file="/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/Program.cs" relfile="Algorithms/Program.cs" line="23" column="1" />
       <Breakpoint file="/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/Math/IsPower.cs" relfile="Algorithms/Math/IsPower.cs" line="16" column="1" />
       <Breakpoint file="/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/MathTests.cs" relfile="Algorithms.Tests/MathTests.cs" line="18" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/SortingTests.cs" relfile="Algorithms.Tests/SortingTests.cs" line="42" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/String and Array/MergeSortedArrays.cs" relfile="Algorithms/String and Array/MergeSortedArrays.cs" line="33" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
