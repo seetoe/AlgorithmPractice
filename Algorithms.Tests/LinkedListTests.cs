@@ -50,6 +50,24 @@ namespace Algorithms.Tests
 		}
 
         [Fact]
+        public void IsPalindromeLinkedList()
+        {
+			Algorithm.LinkedListNode node5 = new Algorithm.LinkedListNode(5, null);
+			Algorithm.LinkedListNode node4 = new Algorithm.LinkedListNode(4, node5);
+			Algorithm.LinkedListNode node3 = new Algorithm.LinkedListNode(3, node4);
+			Algorithm.LinkedListNode node2 = new Algorithm.LinkedListNode(2, node3);
+			Algorithm.LinkedListNode node1 = new Algorithm.LinkedListNode(1, node2);
+            Assert.False(Algorithm.IsPalindromeLinkedList(node1));
+
+            node5.Value = 1;
+            node4.Value = 2;
+            node3.Value = 3;
+            node2.Value = 2;
+            node1.Value = 1;
+			Assert.True(Algorithm.IsPalindromeLinkedList(node1));
+        }
+
+        [Fact]
         public void LRUCacheTest()
         {
 			LRUCache lru = new LRUCache(5);
@@ -80,6 +98,23 @@ namespace Algorithms.Tests
 
             Assert.Equal(ms.GetMax(), 4);
 		}
+
+        [Fact]
+        public void OddEvenList()
+        {
+			Algorithm.LinkedListNode node5 = new Algorithm.LinkedListNode(5, null);
+			Algorithm.LinkedListNode node4 = new Algorithm.LinkedListNode(4, node5);
+			Algorithm.LinkedListNode node3 = new Algorithm.LinkedListNode(3, node4);
+			Algorithm.LinkedListNode node2 = new Algorithm.LinkedListNode(2, node3);
+			Algorithm.LinkedListNode node1 = new Algorithm.LinkedListNode(1, node2);
+            Algorithm.LinkedListNode currentNode = Algorithm.OddEvenList(node1);
+            String output = currentNode.Value.ToString();
+            while (currentNode.Next != null) {
+                currentNode = currentNode.Next;
+                output += " " + currentNode.Value.ToString();
+            }
+            Assert.Equal(output, "1 3 5 2 4");
+        }
 
   //      [Fact]
   //      public void RemoveDuplicatesTest()

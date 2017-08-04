@@ -1,35 +1,37 @@
 using System.Collections.Generic;
 
-public class BreadthFirstSearch
+public partial class Algorithm
 {
-	private Queue<BinaryTreeNode<int>> _searchQueue;
-	private BinaryTreeNode<int> _root;
+    //Trees can also be traversed in level-order, where we visit every node on a level before going to a lower level.
+    //This search is referred to as breadth-first search (BFS), as the search tree is broadened as much as possible on each depth before going to the next depth.
 
-	public BreadthFirstSearch(BinaryTreeNode<int> rootNode)
-	{
-		_searchQueue = new Queue<BinaryTreeNode<int>>();
-		_root = rootNode;
-	}
+    public static bool BreadthFirstSearch(BinaryTreeNode<int> rootNode, int data)
+    {
+		Queue<BinaryTreeNode<int>> searchQueue = new Queue<BinaryTreeNode<int>>();
+        if (rootNode != null)
+        {
+            searchQueue.Enqueue(rootNode);
+        }
 
-	public bool Search(int data)
-	{
-		BinaryTreeNode<int> _current = _root;
-		_searchQueue.Enqueue(_root);
+		BinaryTreeNode<int> currentNode;
+        while (searchQueue.Count != 0)
+        {
+            currentNode = searchQueue.Dequeue();
+            if (currentNode.Value == data)
+            {
+                return true;
+            }
+            else
+            {
+                if (currentNode.Left != null) {
+					searchQueue.Enqueue(currentNode.Left);
+                }
+                if (currentNode.Right != null) {
+					searchQueue.Enqueue(currentNode.Right);
+                }
+            }
+        }
 
-		while (_searchQueue.Count != 0)
-		{
-			_current = _searchQueue.Dequeue();
-			if (_current.Value == data)
-			{
-				return true;
-			}
-			else
-			{
-				_searchQueue.Enqueue(_current.Left);
-				_searchQueue.Enqueue(_current.Right);
-			}
-		}
-
-		return false;
-	}
+        return false;
+    }
 }

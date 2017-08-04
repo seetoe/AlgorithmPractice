@@ -15,7 +15,9 @@ namespace Algorithms.Tests
 
         [Fact]
         public void IsPowerTest() {
+			Assert.False(Algorithm.IsPower(11));
             Assert.True(Algorithm.IsPower(4));
+            Assert.True(Algorithm.IsPower(243));
         }
 
         [Fact]

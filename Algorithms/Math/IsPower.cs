@@ -14,8 +14,8 @@ public partial class Algorithm
     {
         // for 32 bit signed integer, max is 2^31
         for (double e = 2; e < 32; e++) {
-            for (double b = 1; b < Math.Sqrt(A); b++) {
-				if (Math.Pow(b, e) == Convert.ToDouble(A))
+            for (double b = 1; b <= Math.Sqrt(A); b++) {
+                if (Math.Pow(b, e).Equals(Convert.ToDouble(A)))
 				{
                     return true;
 				}    

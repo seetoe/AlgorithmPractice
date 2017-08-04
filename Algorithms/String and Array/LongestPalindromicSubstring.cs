@@ -10,7 +10,7 @@ public partial class Algorithm {
                 string currentSubstring = s.Substring(i, j-i);
                 //Console.WriteLine ("current substring: " + currentSubstring);
                 if (currentSubstring.Length > currentMaxLength) {
-                    if (IsPalindrome(currentSubstring)) {
+                    if (IsPalindromeString(currentSubstring)) {
                         currentMaxLength = currentSubstring.Length;
                         currentMaxString = currentSubstring;
                     }
@@ -27,7 +27,7 @@ public partial class Algorithm {
             for (int startIndex = 0; startIndex < s.Length; startIndex++) {
                 if ((startIndex + length) <= (s.Length-1)) {
                     string currentSubstring = s.Substring(startIndex, length);
-                    if (IsPalindrome(currentSubstring)) {
+                    if (IsPalindromeString(currentSubstring)) {
                         return currentSubstring;
                     }    
                 }
@@ -37,29 +37,5 @@ public partial class Algorithm {
             }    
         }
         return "";
-    }
-    
-    
-    public static bool IsPalindrome (string s) {
-        bool result = true;
-        int i = 0;
-        int j = s.Length-1;
-        while (i <= j) {            
-            if (char.IsWhiteSpace(s[i])) {
-                i++;
-                continue;
-            }
-            if (char.IsWhiteSpace(s[j])) {
-                j--;
-                continue;
-            }
-            if (s[i] != s[j]) {
-                result = false;
-                break;
-            }
-            i++;
-            j--;
-        }
-        return result;
     }
 }
