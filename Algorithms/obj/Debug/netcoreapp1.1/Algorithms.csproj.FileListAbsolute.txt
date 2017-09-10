@@ -20,6 +20,7 @@
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/bin/Debug/netcoreapp1.1/Algorithms.dll
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/bin/Debug/netcoreapp1.1/Algorithms.pdb
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/obj/Debug/netcoreapp1.1/Algorithms.csproj.CoreCompileInputs.cache
+/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/obj/Debug/netcoreapp1.1/Algorithms.AssemblyInfoInputs.cache
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/obj/Debug/netcoreapp1.1/Algorithms.AssemblyInfo.cs
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/obj/Debug/netcoreapp1.1/Algorithms.dll
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/obj/Debug/netcoreapp1.1/Algorithms.pdb

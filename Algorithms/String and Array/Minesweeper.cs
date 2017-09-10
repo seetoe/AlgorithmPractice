@@ -1,28 +1,28 @@
-//In the game of Minesweeper you are given a grid of size L x W that has a variable number of mines, M, in random locations within the grid. Write a function that generates random mine locations within the grid.
-
-//Change your code if you also had to generate the tile numbers (the number on a non-mine tile should represent the number of mines in adjacent tiles)
-
-//inputs:
-//L - int
-//w - int
-//M - int
-
-//output:
-//array[][] mines
-
-
 using System;
 
 public class SolutionMinesweeper {
+	//In the game of Minesweeper you are given a grid of size L x W that has a variable number of mines, M, in random locations within the grid.
+    //Write a function that generates random mine locations within the grid.
 
-    //public static void Main (string[] args) {
-    //    int length = 5;
-    //    int width = 6;
-    //    int numOfMines = 20;
-    //    Minesweeper (length, width, numOfMines);
-    //}
+	//Change your code if you also had to generate the tile numbers (the number on a non-mine tile should represent the number of mines in adjacent tiles)
 
-    public static int[,] Minesweeper(int l, int w, int m) {
+	//inputs:
+	//L - int
+	//W - int
+	//M - int
+
+	//output:
+	//array[][] mines
+
+
+	//public static void Main (string[] args) {
+	//    int length = 5;
+	//    int width = 6;
+	//    int numOfMines = 20;
+	//    Minesweeper (length, width, numOfMines);
+	//}
+
+	public static int[,] Minesweeper(int l, int w, int m) {
     
         int[,] grid = new int[l,w];
         
@@ -35,7 +35,6 @@ public class SolutionMinesweeper {
         
         int i = 0;
         
-        
         // place mines
         while (i < m) {
             Random randomLocation = new Random();
@@ -43,7 +42,7 @@ public class SolutionMinesweeper {
             int firstIndex = randomLocation.Next(0, l-1);
             int secondIndex = randomLocation.Next(0, w-1);
             
-            // if grid location is empty, valid spot for new mine
+            // if grid location is empty, valid spot for new mine. use value -1 to flag as mine
             if (grid[firstIndex, secondIndex] != -1) {
                 grid[firstIndex, secondIndex] = -1;            
                 i++;
@@ -60,12 +59,8 @@ public class SolutionMinesweeper {
                         }
                     }
                 }
-               
-
-                   
             }
         }
-        
         
         return grid;
     }

@@ -26,6 +26,7 @@
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/bin/Debug/netcoreapp1.1/Algorithms.pdb
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/obj/Debug/netcoreapp1.1/Algorithms.Tests.csprojResolveAssemblyReference.cache
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/obj/Debug/netcoreapp1.1/Algorithms.Tests.csproj.CoreCompileInputs.cache
+/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/obj/Debug/netcoreapp1.1/Algorithms.Tests.AssemblyInfoInputs.cache
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/obj/Debug/netcoreapp1.1/Algorithms.Tests.AssemblyInfo.cs
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/obj/Debug/netcoreapp1.1/Algorithms.Tests.dll
 /Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/obj/Debug/netcoreapp1.1/Algorithms.Tests.pdb

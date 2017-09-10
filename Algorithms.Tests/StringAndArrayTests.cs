@@ -150,5 +150,13 @@ namespace Algorithms.Tests
 			int lengthOfTransformationSequence = Algorithm.WordLadder ("hit", "cog", dict);
             Assert.Equal(lengthOfTransformationSequence, 5);
 		}
+
+        [Fact]
+        public void CountIslandsTest()
+        {
+            int[,] grid = new int[5, 5] { { 0, 0, 0, 1, 1 }, { 0, 1, 0, 1, 0 }, { 0, 0, 1, 1, 0 }, { 0, 0, 0, 0, 1 }, { 1, 1, 1, 0, 1} };
+            int islandCount = StringandArray.CountIslands.IslandCounter(grid);
+            Assert.Equal(islandCount, 4);
+        }
     }
 }
