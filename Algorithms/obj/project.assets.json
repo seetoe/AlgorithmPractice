@@ -18236,10 +18236,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/Algorithms.csproj",
+      "projectUniqueName": "/Users/kevinszeto/Projects/algorithms/Algorithms/Algorithms.csproj",
       "projectName": "Algorithms",
-      "projectPath": "/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/Algorithms.csproj",
-      "outputPath": "/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/obj",
+      "projectPath": "/Users/kevinszeto/Projects/algorithms/Algorithms/Algorithms.csproj",
+      "outputPath": "/Users/kevinszeto/Projects/algorithms/Algorithms/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

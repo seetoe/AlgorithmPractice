@@ -9713,10 +9713,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/Algorithms.Tests.csproj",
+      "projectUniqueName": "/Users/kevinszeto/Projects/algorithms/Algorithms.Tests/Algorithms.Tests.csproj",
       "projectName": "Algorithms.Tests",
-      "projectPath": "/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/Algorithms.Tests.csproj",
-      "outputPath": "/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms.Tests/obj",
+      "projectPath": "/Users/kevinszeto/Projects/algorithms/Algorithms.Tests/Algorithms.Tests.csproj",
+      "outputPath": "/Users/kevinszeto/Projects/algorithms/Algorithms.Tests/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -9724,8 +9724,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/Algorithms.csproj": {
-              "projectPath": "/Users/kevinszeto/Projects/AlgorithmPractice/Algorithms/Algorithms.csproj"
+            "/Users/kevinszeto/Projects/algorithms/Algorithms/Algorithms.csproj": {
+              "projectPath": "/Users/kevinszeto/Projects/algorithms/Algorithms/Algorithms.csproj"
             }
           }
         }
