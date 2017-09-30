@@ -11,7 +11,7 @@
     <Folder Include="Tree\" />
     <Folder Include="Linked List\" />
     <Folder Include="Graph\" />
-    <Folder Include="Math\" />
+    <Folder Include="Arithmetic\" />
     <Folder Include="Tree\Traversal\" />
   </ItemGroup>
 

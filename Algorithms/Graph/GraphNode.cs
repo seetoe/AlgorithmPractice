@@ -12,7 +12,12 @@ namespace Algorithms.Graph
 		public GraphNode(int label)
 		{
 			this.label = label;
-			//this.neighbors = neighbors;
+		}
+
+        public GraphNode(int label, List<GraphNode> neighbors)
+		{
+			this.label = label;
+			this.neighbors = neighbors;
 		}
 
 		public List<GraphNode> Neighbors
@@ -21,6 +26,10 @@ namespace Algorithms.Graph
 			{
 				return this.neighbors;
 			}
+            set
+            {
+                this.neighbors = value;
+            }
 		}
 
 		public int Label
@@ -29,6 +38,10 @@ namespace Algorithms.Graph
 			{
 				return this.label;
 			}
+            set
+            {
+                this.label = value;
+            }
 		}
 	}
 }

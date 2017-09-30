@@ -131,5 +131,25 @@ namespace Algorithms.Tests
 			BinaryTreeNode<string> nodeA = new BinaryTreeNode<string>("A", nodeB, nodeC);
             Algorithm.PrintBinaryTree(nodeA);
 		}
+
+        [Fact]
+        public void AreTreesIdentical()
+        {
+			BinaryTreeNode<int> node3 = new BinaryTreeNode<int>(3);
+			BinaryTreeNode<int> node4 = new BinaryTreeNode<int>(4);
+			BinaryTreeNode<int> node2 = new BinaryTreeNode<int>(2, node4);
+            BinaryTreeNode<int> node1 = new BinaryTreeNode<int>(1, node2, node3);
+
+			BinaryTreeNode<int> node6 = new BinaryTreeNode<int>(6);
+			BinaryTreeNode<int> node5 = new BinaryTreeNode<int>(5, node6);
+
+
+
+            bool areIdentical = Tree.AreTreesIdentical.AreIdentical(node1, node1);
+            Assert.True(areIdentical);
+
+			areIdentical = Tree.AreTreesIdentical.AreIdentical(node1, node5);
+			Assert.False(areIdentical);
+        }
     }
 }

@@ -158,5 +158,53 @@ namespace Algorithms.Tests
             int islandCount = StringandArray.CountIslands.IslandCounter(grid);
             Assert.Equal(islandCount, 4);
         }
+
+        [Fact]
+        public void KadanesAlgorithm()
+        {
+            int[] arr = { 1, 2, 3 };
+            int maxSum = StringandArray.KadanesAlgorithm.MaxSumOfContiguousSubArray(arr, 3);
+            Assert.Equal(maxSum, 6);
+
+			int[] arr2 = { -1, -2, -3, -4 };
+			maxSum = StringandArray.KadanesAlgorithm.MaxSumOfContiguousSubArray(arr2, 4);
+			Assert.Equal(maxSum, -1);
+
+			//int[] arr3 = { -2, -3, 4, -1, -2, 1, 5, -3 };
+			//maxSum = StringandArray.KadanesAlgorithm.MaxSumOfContiguousSubArray(arr3, 4);
+			//Assert.Equal(maxSum, 7);
+        }
+
+        [Fact]
+        public void GreatestProductInArray()
+        {
+            int[] arr = { 2, 5, 7, 8 };
+            int greatestProduct = StringandArray.GreatestProductInArray.GreatestProduct(arr);
+            Assert.Equal(greatestProduct, -1);
+
+            int[] arr2 = { 10, 2, 2, 4, 30, 35 };
+			greatestProduct = StringandArray.GreatestProductInArray.GreatestProduct(arr2);
+			Assert.Equal(greatestProduct, 4);
+        }
+
+        [Fact]
+        public void RottenOrangesTest()
+        {
+            int[,] matrixOrange = new int[3, 5] {
+                {2, 1, 0, 2, 1},
+                {1, 0, 1, 2, 1},
+                {1, 0, 0, 2, 1}
+            };
+            int minTime = StringandArray.RottenOranges.MinimumTimeToRotAll(matrixOrange);
+            Assert.Equal(minTime, 2);
+
+			matrixOrange = new int[3, 5] {
+				{2, 1, 0, 2, 1},
+				{0, 0, 1, 2, 1},
+				{1, 0, 0, 2, 1}
+			};
+			minTime = StringandArray.RottenOranges.MinimumTimeToRotAll(matrixOrange);
+			Assert.Equal(minTime, -1);
+        }
     }
 }
