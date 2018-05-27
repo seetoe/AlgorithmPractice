@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{4C16D563-4319-42E0-A8A2-C3ADEB187C6C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/Arithmetic/ReverseDepthSum.cs">
+    <Files>
+      <File FileName="Algorithms/Tree/BreadthFirstSearch.cs" Line="33" Column="10" />
+      <File FileName="Algorithms/Tree/DepthFirstSearch.cs" Line="27" Column="14" />
+      <File FileName="Algorithms/Graph/CloneGraph.cs" Line="19" Column="18" />
+      <File FileName="Algorithms/Arithmetic/ReverseDepthSum.cs" Line="48" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Algorithms PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/kevinszeto/Projects/algorithms/AlgorithmSolution/Tree/BinaryTreeTraversal.cs" relfile="AlgorithmSolution/Tree/BinaryTreeTraversal.cs" line="128" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/algorithms/Algorithms.Tests/UnitTest1.cs" relfile="Algorithms.Tests/UnitTest1.cs" line="10" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/algorithms/Algorithms/Program.cs" relfile="Algorithms/Program.cs" line="23" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/algorithms/Algorithms.Tests/SortingTests.cs" relfile="Algorithms.Tests/SortingTests.cs" line="42" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/algorithms/Algorithms/Linked List/OddEvenList.cs" relfile="Algorithms/Linked List/OddEvenList.cs" line="38" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/algorithms/Algorithms/Math/IsPower.cs" relfile="Algorithms/Math/IsPower.cs" line="16" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/algorithms/Algorithms/String and Array/CountIslands.cs" relfile="Algorithms/String and Array/CountIslands.cs" line="14" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/algorithms/Algorithms/String and Array/CountIslands.cs" relfile="Algorithms/String and Array/CountIslands.cs" line="22" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/algorithms/Algorithms.Tests/StringAndArrayTests.cs" relfile="Algorithms.Tests/StringAndArrayTests.cs" line="206" column="1" />
+      <Breakpoint file="/Users/kevinszeto/Projects/algorithms/Algorithms.Tests/TreeTests.cs" relfile="Algorithms.Tests/TreeTests.cs" line="149" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

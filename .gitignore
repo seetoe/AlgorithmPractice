@@ -1,0 +1,5 @@
+packages/
+Algorithms/bin
+Algorithms/obj/
+Algorithms.Tests/bin/
+Algorithms.Tests/obj/
